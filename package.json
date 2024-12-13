@@ -1,0 +1,33 @@
+{
+  "name": "webos-twitch-viewer",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@enact/core": "^4.7.6",
+    "@enact/i18n": "^4.7.6",
+    "@enact/moonstone": "^4.7.6",
+    "@enact/spotlight": "^4.7.6",
+    "@enact/ui": "^4.7.6",
+    "@enact/webos": "^4.7.6",
+    "@enact/cli": "^5.0.0",
+    "ilib": "^14.18.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@enact/dev-utils": "^4.7.6",
+    "eslint": "^8.53.0",
+    "eslint-config-enact": "^4.7.6"
+  },
+  "scripts": {
+    "serve": "node node_modules/@enact/cli/bin/enact.js serve",
+    "pack": "node node_modules/@enact/cli/bin/enact.js pack",
+    "pack-p": "node node_modules/@enact/cli/bin/enact.js pack -p",
+    "watch": "node node_modules/@enact/cli/bin/enact.js pack --watch",
+    "clean": "node node_modules/@enact/cli/bin/enact.js clean",
+    "lint": "node node_modules/@enact/cli/bin/enact.js lint",
+    "test": "node node_modules/@enact/cli/bin/enact.js test",
+    "test-watch": "node node_modules/@enact/cli/bin/enact.js test --watch"
+  }
+}
